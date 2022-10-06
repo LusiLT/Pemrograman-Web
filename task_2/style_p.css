@@ -1,0 +1,73 @@
+*{       
+    font-family: 'Ubuntu', sans-serif;     
+    color: black;
+    box-sizing: border-box;
+}
+body{    
+    width: 100%;
+    height: 100vh;
+}
+
+/* kontener saya buat agar background diperlakukan sebagai objek */
+.kontener{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+/* style untuk kontener setelah setting sebelumnya */
+.kontener:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(16, 110, 173, 0.26),
+    rgba(255, 255, 255, 0.753) ),image("bg.png") no-repeat center;
+    background-size : cover;
+    z-index: -1;
+    filter: blur(3px);
+}
+
+/* Untuk posisis tabel */
+.tabel{
+    padding-top : 5%;
+    position: absolute;
+
+}
+
+/* Untuk mengatur style tabel */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+/* Untuk mengatur baris dan header */
+td, th {
+    border: 2px solid #110b0b;
+    text-align: left;
+    padding: 15px;
+
+}
+
+/* Untuk mengatur warna header */
+th {
+    background-color: white;
+}
+
+/* Untuk mengatur warna baris yang genap */
+tr:nth-child(even) {
+    background-color: #a0dcf3d3;
+}
+
+/* Untuk mengatur posisi judul utama */
+.judul{
+    margin-top: 10px;;
+    color:white;
+    font-weight: 900;
+}

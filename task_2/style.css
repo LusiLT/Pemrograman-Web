@@ -1,0 +1,40 @@
+
+/* unuk mengatur ukuran body */
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+}
+
+
+.judul{
+    margin-top: 10px;;
+    color:green;
+    font-weight: 900;
+    text-align: center;
+}
+.table{
+    border-spacing: 5px;
+    color: rgb(36, 105, 36);
+    text-align: center;
+    align-content: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+}
+h2{
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.table2{
+    background-color: white;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table2, td{
+    text-align: left;
+    vertical-align: top;
+    border-collapse: collapse;
+}
